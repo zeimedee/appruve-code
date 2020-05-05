@@ -23,6 +23,8 @@ function App() {
 
   const [lists,setLists ]= useState([
     {'item':"10 free texts"},
+    {'item':"10 free texts"},
+    
   ])
             
     
@@ -39,7 +41,7 @@ function App() {
           paint='primary'
           tier='BRONZE'
           price='$10'
-          list={lists}
+          // list={lists}
 
         />
         </Grid>

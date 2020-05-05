@@ -1,15 +1,15 @@
-import React from 'react'
-import List from './list'
+// import React from 'react'
+// import List from './list'
 
-function TallList(props) {
-    return (
-        <div>
-        {props.list.map((item,index)=>{
-            return <List key={index} item={item} />
-        })}
+// function TallList(props) {
+//     return (
+//         <div>
+//         {props.list.map((item,index)=>{
+//             return <List key={index} item={item} />
+//         })}
             
-        </div>
-    )
-}
+//         </div>
+//     )
+// }
 
-export default TallList
+// export default TallList
